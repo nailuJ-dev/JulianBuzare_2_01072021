@@ -1,3 +1,12 @@
 html {
     font-family: 'Raleway', sans-serif;    
 }
+
+.header-button {
+    background-color: white;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-width: 2px;
+    border-color: blue;
+}
