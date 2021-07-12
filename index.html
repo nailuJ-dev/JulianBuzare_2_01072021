@@ -16,50 +16,60 @@
         <div> <!--premiere box a regler-->
             <div>
                 <img src="images/logo/Reservia@3x.png" alt="logo Reservia" href=''>
-                <nav><h1>S'inscrire</h1></nav>
+                <nav><button><a>S'inscrire</a></button></nav>
             </div>
+            <!--Ajout des boutons un et deux du menu-->
             <div>
                 <nav>
-                    <div>
-                        <h2>Hébergements</h2> <!--Ajout du 1er choix du menu activites-->
-                    </div>
-                    <div>
-                        <h2>Activités</h2> <!--Ajout du 2eme choix du menu activites-->
-                    </div>
+                    <button>
+                        <a>Hébergements</a>
+                    </button>
+                    <button>
+                        <a>Activités</a>
+                    </button>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <div><!--barre de recherche, filtre, titres, infos-->
+        <!--barre de recherche, filtre, titres, infos-->
+        <div>
             <div>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1> <!--trouvez hebergement de vos reves-->
-                <p>En plein centre ville ou en pleine nature</p> <!--en plein centre ville-->
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
             </div>
             <div>
                 <div>
-                    <img src="" alt="geolocalization point favicon"> <!--favicon-->
-                    <input type="text" value="Marseille, France"> <!--zone de recherche avec input-->
-                    <button type="submit" name="searched-city" formethod="get" ><h3>Rechercher</h3></button>
+                    <img src="" alt="geolocalization point favicon"> 
+                    <input type="text" value="Marseille, France">
+                    <button type="submit" name="searched-city" formethod="get" ><a>Rechercher</a></button>
                 </div>
             </div>
             <div>
                 <h2>Filtres</h2>
                 <div>
-                    <img src="" alt=""> <!--favicon-->
-                    <h2>Economique</h2>
+                    <button>
+                        <img src="" alt=""> <!--favicon-->
+                        <a>Economique</a>
+                    </button>
                 </div>
                 <div>
-                    <img src="" alt=""> <!--favicon-->
-                    <h2>Familial</h2>
+                    <button>
+                        <img src="" alt=""> <!--favicon-->
+                        <a>Familial</a>
+                    </button>
                 </div>
                 <div>
-                    <img src="" alt=""> <!--favicon-->
-                    <h2>Romantique</h2>
+                    <button>
+                        <img src="" alt=""> <!--favicon-->
+                        <a>Romantique</a>
+                    </button>
                 </div>
                 <div>
-                    <img src="" alt=""> <!--favicon-->
-                    <h2>Animaux autorisés</h2>
+                    <button>
+                        <img src="" alt=""> <!--favicon-->
+                        <a>Animaux autorisés</a>
+                    </button>
                 </div>
             </div>
             <div>
@@ -72,117 +82,130 @@
                 </div>
             </div>
         </div>
-        <div><!--categories populaires et hebergement-->
-            <div><!--populaire-->
-                <button><h2>Les plus populaires</h2></button><!--href categorie-->
-                <img src="" alt=""> <!--favicon-->
-                <div>
+        <section><!--categories populaires et hebergement-->
+            <!--populaire-->
+            <h2>
+            Les plus populaires
+            <a href=""><img src="" alt=""></a> <!--favicon-->
+            </h2>
+            <article>
+                <a href="">
+                    <img src="images/hebergements/3_medium/hotel-soleil-matin.jpg" alt="Photo d'une chambre de l'hôtel Le soleil du matin. Marseille, France"> <!--image chambre-->
                     <div>
-                        <img src="images/hebergements/3_medium/hotel-soleil-matin.jpg" alt="Photo d'une chambre de l'hôtel Le soleil du matin. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Hôtel Le soleil du matin</h2></div> <!--nom hotel-->
-                    <div>Nuit à partir de 128€</div> <!--prix nuit-->
-                    <div>  </div> <!--note ou alors section-article avec href vers module-->
-                </div>
-                <div>
+                        <h3>Hôtel Le soleil du matin</h3> <!--nom hotel-->
+                        <p>Nuit à partir de 128€</p> <!--prix nuit-->
+                        <span>
+                            <!--note ou alors section-article avec href vers module-->
+                        </span> 
+                    </div> 
+                </a> 
+            </article>
+            <article>
+                <a href="">
+                    <img src="images/hebergements/3_medium/hotel-coeur-eau.jpg" alt="Photo d'une chambre des chambres d'hôtes Au coeur de l'eau. Marseille, France"> <!--image chambre-->
                     <div>
-                        <img src="images/hebergements/3_medium/hotel-coeur-eau.jpg" alt="Photo d'une chambre des chambres d'hôtes Au coeur de l'eau. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Au coeur de l'eau Chambres d'hôtes</h2></div>
-                    <div>Nuit à partir de 71€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
-                </div>
-                <div>
+                        <h3>Au coeur de l'eau Chambres d'hôtes</h3> <!--nom hotel-->
+                        <p>Nuit à partir de 71€</p> <!--prix nuit-->
+                        <span>
+                            <!--note ou alors section-article avec href vers module-->
+                        </span> 
+                    </div> 
+                </a> 
+            </article>
+            <article>
+                <a href="">
+                    <img src="images/hebergements/3_medium/hotel-tout-bleu-blanc.jpg" alt="Photo d'une chambre de l'hôtel Tout bleu et Blanc. Marseille, France">
                     <div>
-                        <img src="images/hebergements/3_medium/hotel-tout-bleu-blanc.jpg" alt="Photo d'une chambre de l'hôtel Tout bleu et Blanc. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Hôtel Tout bleu et Blanc</h2></div>
-                    <div>Nuit à partir de 68€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
-                </div>
-            </div>
-            <div><!--hebergements-->
-                <div><h1>Hébergements à Marseille</h1></div> <!--hebergements a marseille-->
-                <div>
+                        <h3>Hôtel Tout bleu et Blanc</h3> <!--nom hotel-->
+                        <p>Nuit à partir de 68€</p> <!--prix nuit-->
+                        <span>
+                            <!--note ou alors section-article avec href vers module-->
+                        </span> 
+                    </div> 
+                </a> 
+            </article>
+        </section>
+        <section><!--hebergements-->
+            <h2>Hébergements à Marseille</h2> <!--hebergements a marseille-->
+            <article>
+                <a>
+                    <img src="images/hebergements/3_medium/hotel-cannebiere.jpg" alt="Photo d'une chambre de l'auberge La Cannebière. Marseille, France"> <!--image chambre-->
                     <div>
-                        <img src="images/hebergements/3_medium/hotel-cannebiere.jpg" alt="Photo d'une chambre de l'auberge La Cannebière. Marseille, France"> <!--image chambre-->
+                        <h3>Auberge La Cannebière</h3>
+                        <p>Nuit à partir de 25€</p>
+                        <span> <!--note ou alors section-article avec href vers module--> </span>
                     </div>
-                    <div><h2>Auberge La Cannebière</h2></div>
-                    <div>Nuit à partir de 25€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
-                </div>
+                </a>
+            </article>
+            <article>
                 <div>
-                    <div>
-                        <img src="images/hebergements/3_medium/hotel-port.jpg" alt="Photo d'une chambre de l'Hôtel du port. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Hôtel du port</h2></div>
-                    <div>Nuit à partir de 52€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
+                    <img src="images/hebergements/3_medium/hotel-port.jpg" alt="Photo d'une chambre de l'Hôtel du port. Marseille, France"> <!--image chambre-->
                 </div>
+                <h3>Hôtel du port</h3>
+                <div>Nuit à partir de 52€</div>
+                <div> <!--note ou alors section-article avec href vers module--> </div>
+            </article>
+            <article>
                 <div>
-                    <div>
-                        <img src="images/hebergements/3_medium/hotel-mouettes.jpg" alt="Photo d'une chambre de l'hôtel Les mouettes. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Hôtel Les mouettes</h2></div>
-                    <div>Nuit à partir de 76€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
+                    <img src="images/hebergements/3_medium/hotel-mouettes.jpg" alt="Photo d'une chambre de l'hôtel Les mouettes. Marseille, France"> <!--image chambre-->
                 </div>
+                <h3>Hôtel Les mouettes</h3>
+                <div>Nuit à partir de 76€</div>
+                <div> <!--note ou alors section-article avec href vers module--> </div>
+            </article>
+            <article>
                 <div>
-                    <div>
-                        <img src="images/hebergements/3_medium/hotel-mer.jpg" alt="Photo d'une chambre de l'Hôtel de la mer. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Hôtel de la mer</h2></div>
-                    <div>Nuit à partir de 46€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
+                    <img src="images/hebergements/3_medium/hotel-mer.jpg" alt="Photo d'une chambre de l'Hôtel de la mer. Marseille, France"> <!--image chambre-->
                 </div>
+                <h3>Hôtel de la mer</h3>
+                <div>Nuit à partir de 46€</div>
+                <div> <!--note ou alors section-article avec href vers module--> </div>
+            </article>
+            <article>
                 <div>
-                    <div>
-                        <img src="images/hebergements/3_medium/auberge-panier.jpg" alt="Photo d'une chambre de l'auberge Le Panier. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Auberge Le Panier</h2></div>
-                    <div>Nuit à partir de 23€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
+                    <img src="images/hebergements/3_medium/auberge-panier.jpg" alt="Photo d'une chambre de l'auberge Le Panier. Marseille, France"> <!--image chambre-->
                 </div>
+                <h3>Auberge Le Panier</h3>
+                <div>Nuit à partir de 23€</div>
+                <div> <!--note ou alors section-article avec href vers module--> </div>
+            </article>
+            <article>
                 <div>
-                    <div>
-                        <img src="images/hebergements/3_medium/hotel-amina.jpg" alt="Photo d'une chambre de l'hôtel chez Amina. Marseille, France"> <!--image chambre-->
-                    </div>
-                    <div><h2>Hôtel chez Amina</h2></div>
-                    <div>Nuit à partir de 96€</div>
-                    <div> <!--note ou alors section-article avec href vers module--> </div>
+                    <img src="images/hebergements/3_medium/hotel-amina.jpg" alt="Photo d'une chambre de l'hôtel chez Amina. Marseille, France"> <!--image chambre-->
                 </div>
-                <div>
-                    <h2>Afficher plus</h2> <!--afficher plus avec href-->
-                </div>
-            </div>
-        </div>
-        <div><!--activites marseille-->
-            <h1>Activités à Marseille</h1>
-            <div>
+                <h3>Hôtel chez Amina</h3>
+                <div>Nuit à partir de 96€</div>
+                <div> <!--note ou alors section-article avec href vers module--> </div>
+            </article>
+            <button><a href="">Afficher plus</a></button> <!--afficher plus avec href-->
+        </section>
+        <section>
+            <h2>Activités à Marseille</h2>
+            <article>
                 <div><img src="images/activites/2_large/vieux-port-l.jpg" width=60% alt="Image du Vieux Port à Marseille, France"><!--ajout image--></div>
-                <h2>Vieux Port</h2>
-            </div>
-            <div>
+                <h3>Vieux Port</h3>
+            </article>
+            <article>
                 <div><img src="images/activites/2_large/fort-pomegues-l.jpg" width=60% height=30% alt="Image du Fort de Pomègues. Marseille, France"><!--ajout image--></div>
-                <h2>Fort de Pomègues</h2>
-            </div>
-            <div>
+                <h3>Fort de Pomègues</h3>
+            </article>
+            <article>
                 <div><img src="images/activites/2_large/iles-frioul-l.jpg" width=60% alt="Image des îles du Frioul au loin. Marseille, France"><!--ajout image--></div>
-                <h2>Îles du Frioul</h2>
-            </div>
-            <div>
+                <h3>Îles du Frioul</h3>
+            </article>
+            <article>
                 <div><img src="images/activites/2_large/calanque-parc-l.jpg" width=60% alt="Photo du Parc National des Calanques avec une vue sur le large. Marseille, France"><!--ajout image--></div>
-                <h2>Parc National des Calanques</h2>
-            </div>
-            <div>
+                <h3>Parc National des Calanques</h3>
+            </article>
+            <article>
                 <div><img src="images/activites/2_large/dame-garde-l.jpg" width=60% alt="Photo de Notre-Dame-de-la-Garde à Marseille, France"><!--ajout image--></div>
-                <h2>Notre-Dame-de-la-Garde</h2>
-            </div>
-            <div>
+                <h3>Notre-Dame-de-la-Garde</h3>
+            </article>
+            <article>
                 <div><img src="images/activites/2_large/parc-longchamp-l.jpg" width=60% alt="Photo du momument principal du Parc Longchamp à Marseille, France"><!--ajout image--></div>
-                <h2>Parc Longchamp</h2>
-            </div>
-        </div>
+                <h3>Parc Longchamp</h3>
+            </article>
+        </section>
     </main>
     <footer>
         <div><!--box des 3 colonnes-->
