@@ -1,6 +1,9 @@
 html {
     font-family: 'Raleway', sans-serif;    
 }
+.wrapper-header {
+    display: grid;
+}
 
 .header-button {
     background-color: white;
@@ -8,5 +11,33 @@ html {
     border-left: 2px;
     border-right: 2px;
     border-width: 2px;
+    border-color: white;
+}
+.header-button:hover {
+    border-width: 2px;
     border-color: blue;
+}
+
+.wrapper-hostings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.wrapper-popular {
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.wrapper-activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.wrapper-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
