@@ -42,6 +42,12 @@ a, a:hover, a:visited, a:active {
     border-radius: 1.5rem;
 }
 
+.main-hostings-title {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin: 0;
+}
+
 .main-hostings-card {
     background-color: white;
     border-radius: 1.2rem;
