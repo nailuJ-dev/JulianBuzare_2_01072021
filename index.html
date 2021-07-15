@@ -31,7 +31,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <!--barre de recherche, filtre, titres, infos-->
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
@@ -78,13 +78,13 @@
                 </p>
             </div>
         </form>
-        <div> 
+        <div class="wrapper-hostings"> 
             <section class="wrapper-popular"><!--categories populaires et hebergement-->
                 <h2>
                     Les plus populaires
                     <a href=""><img src="" alt=""></a> <!--favicon-->
                 </h2>
-                <article>
+                <article class="popular-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-soleil-matin.jpg" alt="Photo d'une chambre de l'hôtel Le soleil du matin. Marseille, France"> <!--image chambre-->
                         <div>
@@ -96,7 +96,7 @@
                         </div> 
                     </a> 
                 </article>
-                <article>
+                <article class="popular-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-coeur-eau.jpg" alt="Photo d'une chambre des chambres d'hôtes Au coeur de l'eau. Marseille, France"> <!--image chambre-->
                         <div>
@@ -108,7 +108,7 @@
                         </div> 
                     </a> 
                 </article>
-                <article>
+                <article class="popular-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-tout-bleu-blanc.jpg" alt="Photo d'une chambre de l'hôtel Tout bleu et Blanc. Marseille, France">
                         <div>
@@ -121,7 +121,7 @@
             </section>
             <section class="wrapper-main-hostings"><!--hebergements-->
                 <h2>Hébergements à Marseille</h2> <!--hebergements a marseille-->
-                <article>
+                <article class="main-hostings-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-cannebiere.jpg" alt="Photo d'une chambre de l'auberge La Cannebière. Marseille, France"> <!--image chambre-->
                         <div>
@@ -131,7 +131,7 @@
                         </div>
                     </a>
                 </article>
-                <article>
+                <article class="main-hostings-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-port.jpg" alt="Photo d'une chambre de l'Hôtel du port. Marseille, France"> <!--image chambre-->
                         <div>
@@ -141,7 +141,7 @@
                         </div>
                     </a>
                 </article>
-                <article>
+                <article class="main-hostings-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-mouettes.jpg" alt="Photo d'une chambre de l'hôtel Les mouettes. Marseille, France"> <!--image chambre-->
                         <div>
@@ -151,7 +151,7 @@
                         </div>
                     </a>
                 </article>
-                <article>
+                <article class="main-hostings-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-mer.jpg" alt="Photo d'une chambre de l'Hôtel de la mer. Marseille, France"> <!--image chambre-->
                         <div>
@@ -161,7 +161,7 @@
                         </div>
                     </a>
                 </article>
-                <article>
+                <article class="main-hostings-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/auberge-panier.jpg" alt="Photo d'une chambre de l'auberge Le Panier. Marseille, France"> <!--image chambre-->
                         <div>
@@ -171,7 +171,7 @@
                         </div>
                     </a>
                 </article>
-                <article>
+                <article class="main-hostings-card">
                     <a href="">
                         <img src="images/hebergements/3_medium/hotel-amina.jpg" alt="Photo d'une chambre de l'hôtel chez Amina. Marseille, France"> <!--image chambre-->
                         <div>
@@ -184,41 +184,41 @@
                 <button><a href="">Afficher plus</a></button> <!--afficher plus avec href-->
             </section>
         </div>
-        <section>
-            <h2>Activités à Marseille</h2>
+        <section class="wrapper-activities" id="wrapper-activities">
+            <h2 class="activities-title"><strong>Activités à Marseille</strong></h2>
             <div>
                 <article>
-                    <a href="">
+                    <a href="#" class="wrapper-activities-card activities-card1">
                         <img src="images/activites/2_large/vieux-port-l.jpg" width=60% alt="Image du Vieux Port à Marseille, France">
                         <h3>Vieux Port</h3>
                     </a>
                 </article>
                 <article>
-                    <a href="">
+                    <a href="#" class="wrapper-activities-card activities-card2">
                         <img src="images/activites/2_large/fort-pomegues-l.jpg" width=60% height=30% alt="Image du Fort de Pomègues. Marseille, France">
                         <h3>Fort de Pomègues</h3>
                     </a>
                 </article>
                 <article>
-                    <a href="">
+                    <a href="#" class="wrapper-activities-card activities-card3">
                         <img src="images/activites/2_large/iles-frioul-l.jpg" width=60% alt="Image des îles du Frioul au loin. Marseille, France">
                         <h3>Îles du Frioul</h3>
                     </a>
                 </article>
                 <article>
-                    <a href="">
+                    <a href="#" class="activities-card4 wrapper-activities-card">
                         <img src="images/activites/2_large/calanque-parc-l.jpg" width=60% alt="Photo du Parc National des Calanques avec une vue sur le large. Marseille, France">
                         <h3>Parc National des Calanques</h3>
                     </a>
                 </article>
                 <article>
-                    <a href="">
+                    <a href="#" class="wrapper-activities-card activities-card5">
                         <img src="images/activites/2_large/dame-garde-l.jpg" width=60% alt="Photo de Notre-Dame-de-la-Garde à Marseille, France">
                         <h3>Notre-Dame-de-la-Garde</h3>
                     </a>
                 </article>
                 <article>
-                    <a href="">
+                    <a href="#" class="wrapper-activities-card activities-card6">
                         <img src="images/activites/2_large/parc-longchamp-l.jpg" width=60% alt="Photo du momument principal du Parc Longchamp à Marseille, France">
                         <h3>Parc Longchamp</h3>
                     </a>

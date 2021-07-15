@@ -28,21 +28,109 @@ a, a:hover, a:visited, a:active {
 
 .wrapper-hostings {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 6fr 3fr;
+    column-gap: 2rem;
+}
 
+.wrapper-main-hostings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.main-hostings-card {
+    background-color: white;
+    border-radius: 1.2rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 2rem rgba(43, 42, 42, 0.171);
 }
 
 .wrapper-popular {
-    background-color: grey;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
 
+.popular-card {
+    background-color: white;
+    border-radius: 1.2rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 2rem rgba(43, 42, 42, 0.171);
 }
 
 .wrapper-activities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 14rem 2rem 2rem 2 rem 14rem;
+    column-gap: 2rem;
+    margin: 4rem 0 4rem 0;
+}
 
+.activities-title {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.wrapper-activities-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(43, 42, 42, 0.171)
+}
+
+.activities-card-title {
+    margin: 1.2rem 1.5rem 1.2rem 1.5rem;
+}
+
+.activities-card1 {
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.activities-card2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.activities-card3 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+.activities-card4 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.activities-card5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.activities-card6 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
 }
 
 .wrapper-footer{
