@@ -2,7 +2,12 @@
     font-family: 'Raleway', sans-serif;    
 }
 
-
+.main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
 
 a, a:hover, a:visited, a:active {
     color: inherit;
@@ -26,11 +31,12 @@ a, a:hover, a:visited, a:active {
     border-color: blue;
 }
 
-.main {
-    max-width: 1440px;
-    margin: auto;
-    padding: 0 24px;
-    box-sizing: border-box;
+/* SEARCH BAR */
+
+.results {
+    display: flex;
+    align-items: center;
+    margin: 12px 0 24px 0;
 }
 
 /* HOSTINGS */
@@ -67,6 +73,10 @@ a, a:hover, a:visited, a:active {
     height: 100%;
 }
 
+.wrapper-main-hostings article:hover {
+    transform: scale(1.01);
+}
+
 .wrapper-main-hostings figure {
     margin: 0px;
 }
@@ -80,14 +90,29 @@ a, a:hover, a:visited, a:active {
     max-height: 100%;
 }
 
+.wrapper-main-hostings h3 {
+    margin: 3px 9px 0 9px;
+}
+
+.wrapper-main-hostings p {
+    margin: 3px 9px 3px 9px;
+}
+
+.wrapper-main-hostings span {
+    margin: 0 9px 3px 9px;
+}
+
+.more-hostings {
+    font-weight: bold;
+}
 
 /* POPULAR */
 
 .wrapper-popular {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
     row-gap: 24px;
-    align-items: center;
+    align-items: start;
     background-color: #f2f2f2;
     padding: 24px;
     border-radius: 18px;
@@ -107,6 +132,10 @@ a, a:hover, a:visited, a:active {
     box-shadow: 0 0 2rem rgba(43, 42, 42, 0.171);
     height: 100%;
     cursor: pointer;
+}
+
+.popular-card:hover {
+    transform: scale(1.01);
 }
 
 .popular-card a {
@@ -131,6 +160,14 @@ a, a:hover, a:visited, a:active {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.popular-card-space {
+    flex: 1;
+}
+
+.popular-card span {
+    margin: 0 9px 3px 9px;
 }
 
 /* ACTIVITIES AT MARSEILLE */

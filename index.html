@@ -33,51 +33,53 @@
     </header>
     <main class="main">
         <!--barre de recherche, filtre, titres, infos-->
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-        <form method="">
-            <div>
-                <img src="" alt="geolocalization point favicon"> 
-                <input type="text" value="Marseille, France">
-                <button type="submit" name="searched-city" formethod="get" ><a>Rechercher</a></button>
-            </div>
-            <div>
-                <span>Filtres</span>
+        <section>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form method="">
                 <div>
-                    <button>
-                        <img src="" alt=""> <!--favicon-->
-                        <a>Economique</a>
-                    </button>
+                    <img src="" alt="geolocalization point favicon"> 
+                    <input type="text" value="Marseille, France">
+                    <button type="submit" name="searched-city" formethod="get" ><a>Rechercher</a></button>
                 </div>
                 <div>
-                    <button>
-                        <img src="" alt=""> <!--favicon-->
-                        <a>Familial</a>
-                    </button>
+                    <span>Filtres</span>
+                    <div>
+                        <button>
+                            <img src="" alt=""> <!--favicon-->
+                            <a>Economique</a>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <img src="" alt=""> <!--favicon-->
+                            <a>Familial</a>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <img src="" alt=""> <!--favicon-->
+                            <a>Romantique</a>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <img src="" alt=""> <!--favicon-->
+                            <a>Animaux autorisés</a>
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    <button>
-                        <img src="" alt=""> <!--favicon-->
-                        <a>Romantique</a>
-                    </button>
+                <div class="results">
+                    <p>
+                        <span>
+                            <img src="" alt=""> <!--favicon infos-->
+                                <!--logo avec before en css-->
+                        </span>
+                        Plus de 500 logements sont disponibles dans cette ville
+                    </p>
                 </div>
-                <div>
-                    <button>
-                        <img src="" alt=""> <!--favicon-->
-                        <a>Animaux autorisés</a>
-                    </button>
-                </div>
-            </div>
-            <div>
-                <p>
-                    <span>
-                        <img src="" alt=""> <!--favicon infos-->
-                            <!--logo avec before en css-->
-                    </span>
-                    Plus de 500 logements sont disponibles dans cette ville
-                </p>
-            </div>
-        </form>
+            </form>
+        </section>
         <div class="wrapper-hostings"> 
             <section class="wrapper-main-hostings"><!--hebergements-->
                 <header class="main-hostings-title">
@@ -155,9 +157,9 @@
                         </div>
                     </a>
                 </article>
-                <button>
-                    <a href="">Afficher plus</a>
-                </button> <!--afficher plus avec href-->
+                <a class="more-hostings" href="#">
+                        Afficher plus
+                </a>
             </section>
             <section class="wrapper-popular"><!--categories populaires et hebergement-->
                 <h2 class="popular-title">
@@ -174,6 +176,7 @@
                         <div>
                             <h3>Hôtel Le soleil du matin</h3> <!--nom hotel-->
                             <p>Nuit à partir de 128€</p> <!--prix nuit-->
+                            <div class="popular-card-space"></div>
                             <span>
                                 <!--note ou alors section-article avec href vers module-->
                             </span> 
@@ -188,6 +191,7 @@
                         <div>
                             <h3>Au coeur de l'eau Chambres d'hôtes</h3> <!--nom hotel-->
                             <p>Nuit à partir de 71€</p> <!--prix nuit-->
+                            <div class="popular-card-space"></div>
                             <span>
                                 <!--note ou alors section-article avec href vers module-->
                             </span> 
@@ -202,6 +206,7 @@
                         <div>
                             <h3>Hôtel Tout bleu et Blanc</h3> <!--nom hotel-->
                             <p>Nuit à partir de 68€</p> <!--prix nuit-->
+                            <div class="popular-card-space"></div>
                             <span><!--note ou alors section-article avec href vers module--></span> 
                         </div> 
                     </a> 
