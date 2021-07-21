@@ -12,24 +12,22 @@
 
 </head>
 <body>
-    <header>
-        <div> <!--premiere box a regler-->
-            <div>
-                <a><img src="images/logo/Reservia@3x.png" alt="logo Reservia" href='index.html'></a>
-                <nav><button><a>S'inscrire</a></button></nav>
-            </div>
-            <!--Ajout des boutons un et deux du menu-->
-            <div>
-                <nav>
-                    <button class="header-button">
-                        <a><strong>Hébergements</strong></a>
-                    </button>
-                    <button class="header-button">
-                        <a><strong>Activités</strong></a>
-                    </button>
-                </nav>
-            </div>
-        </div>
+    <header class="wrapper-header">
+        <a href='index.html'>
+            <img class="logo-header" src="images/logo/Reservia@3x.png" alt="logo Reservia">
+        </a>
+        <!--Ajout des boutons un et deux du menu-->
+        <nav class="header-nav">
+            <a class="header-button" href="#">
+                Hébergements
+            </a>
+            <a class="header-button" href="#">
+                Activités
+            </a>
+        </nav>        
+        <a class="signup-button" href="#">
+            S'inscrire
+        </a>
     </header>
     <main class="main">
         <!--barre de recherche, filtre, titres, infos-->
