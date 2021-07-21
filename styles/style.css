@@ -70,6 +70,30 @@ a, a:hover, a:visited, a:active {
 
 /* SEARCH BAR */
 
+.search h1 {
+    margin-bottom: 6px;
+}
+
+.search form {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.results-wrapper-icon {
+    height: 24px;
+    width: 24px;
+    min-height: 24px;
+    min-width: 24px;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    color: #0065FC;
+}
+
 .results {
     display: flex;
     align-items: center;
@@ -80,17 +104,17 @@ a, a:hover, a:visited, a:active {
 
 .wrapper-hostings {
     display: grid;
+    column-gap: 24px;
     grid-template-columns: 6fr 3fr;
-    column-gap: 2rem;
 }
 
 .wrapper-main-hostings {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    column-gap: 24px;
+    row-gap: 24px;
     background-color: #f2f2f2;
-    padding: 2rem;
+    padding: 24px;
     border-radius: 18px;
 }
 
@@ -102,7 +126,7 @@ a, a:hover, a:visited, a:active {
 
 .wrapper-main-hostings article {
     background-color: white;
-    padding: 4.5px;
+    padding: 4px;
     border-radius: 14.4px;
     box-sizing: border-box;
     box-shadow: 0 0 2rem rgba(43, 42, 42, 0.171);
