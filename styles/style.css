@@ -33,6 +33,8 @@ a, a:hover, a:visited, a:active {
     box-sizing: border-box;
 }
 
+/* HOSTINGS */
+
 .wrapper-hostings {
     display: grid;
     grid-template-columns: 6fr 3fr;
@@ -55,28 +57,80 @@ a, a:hover, a:visited, a:active {
     margin: 0;
 }
 
-.main-hostings-card {
+.wrapper-main-hostings article {
     background-color: white;
+    padding: 4.5px;
     border-radius: 14.4px;
     box-sizing: border-box;
     box-shadow: 0 0 2rem rgba(43, 42, 42, 0.171);
+    cursor: pointer;
+    height: 100%;
 }
+
+.wrapper-main-hostings figure {
+    margin: 0px;
+}
+
+.wrapper-main-hostings img {
+    height: 85px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+}
+
+
+/* POPULAR */
 
 .wrapper-popular {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 24px;
     align-items: center;
     background-color: #f2f2f2;
-    padding: 2rem;
+    padding: 24px;
     border-radius: 18px;
+}
+
+.popular-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
 }
 
 .popular-card {
     background-color: white;
+    padding: 4.5px;
     border-radius: 14.4px;
     box-sizing: border-box;
     box-shadow: 0 0 2rem rgba(43, 42, 42, 0.171);
+    height: 100%;
+    cursor: pointer;
+}
+
+.popular-card a {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    overflow: auto;
+}
+
+.popular-card figure {
+    margin: 0;
+    position: relative;
+    min-height: 100%;
+    width: 33%;
+    max-width: 33%;
+    min-width: 33%;
+}
+
+.popular-card img {
+    border-radius: 12px 0 0 12px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* ACTIVITIES AT MARSEILLE */
