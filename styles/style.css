@@ -429,49 +429,9 @@ a, a:hover, a:visited, a:active {
 
 @media screen and (min-width: 1101px) {
 
-    .wrapper-hostings {
-        display: grid;
-        column-gap: 24px;
-        grid-template-columns: 6fr 3fr;
-    } 
-
 }
 
 @media screen and (max-width: 650px){
-
-    .wrapper-header {
-        grid-template-columns: auto 1fr auto;
-        grid-template-areas: 
-            "logo . button"
-            "navbar navbar";
-        position: relative;
-    }
-
-    .signup-button
-    {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 12px;
-        width: auto;
-        border-bottom: none;
-    }
-
-    .header-button {
-        display: inline-block;
-        border-bottom: 3px #f2f2f2 solid;
-        width: 100%;
-    }
-
-    .header-button:hover {
-        border-bottom: 3px #0065FC solid;
-        border-top: none;
-    }
-
-.search form button {
-    display: none;
-}
-
 
     .wrapper-main-hostings,
     .activities {
@@ -573,47 +533,6 @@ a, a:hover, a:visited, a:active {
 
 @media screen and (max-width: 1100px) {
 
-    .main {
-        padding: 0;
-    }
 
-    .search {
-        padding: 0 12px;
-    }
-
-    .wrapper-header img{
-        margin-left: 12px;
-    }
-
-    .wrapper-hostings {
-        display: grid;
-        row-gap: 24px;
-        grid-template-rows: auto auto;
-    }
-
-        .wrapper-main-hostings {
-            background: none;
-        }
-
-        .wrapper-main-hostings img {
-            height: 168px;
-        }
-
-        .wrapper-popular {
-            grid-row: 1/2;
-            border-radius: 0;
-            grid-template-rows: auto repeat(3, 1728px);
-            grid-template-columns: 1fr;
-        }
-
-    .activities {
-        padding: 24px;
-    }
 }
 
-@media screen and (min-width: 650px) {
-   
-    .fa-search {
-        display: none;
-    }
-}
