@@ -196,7 +196,7 @@ a, a:hover, a:visited, a:active {
 .main-hostings-title {
     grid-column-start: 1;
     grid-column-end: -1;
-    margin: 0px;
+    margin: 0;
 }
 
 .wrapper-main-hostings article {
@@ -423,3 +423,6 @@ a, a:hover, a:visited, a:active {
     list-style-type: none;
     margin: 1rem 0 1rem 0;
 }
+
+/* RESPONSIVE */
+
