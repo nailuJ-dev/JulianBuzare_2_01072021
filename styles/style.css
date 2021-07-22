@@ -142,6 +142,19 @@ a, a:hover, a:visited, a:active {
     transform: scale(1.01);
 }
 
+.search-filters i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #deebff;
+    color: #0065fc;
+    border-radius: 100%;
+    height: 36px;
+    width: 36px;
+    margin: -2px;
+    margin-right: 12px;
+}
+
 .results-wrapper-icon {
     height: 24px;
     width: 24px;
