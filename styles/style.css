@@ -291,6 +291,18 @@ a, a:hover, a:visited, a:active {
     overflow: auto;
 }
 
+.popular-card-margin-left {
+    margin-left: 10px;
+}
+
+.popular-card-margin-left h3 {
+    margin: auto 0 3px 0;
+}
+
+.popular-card-margin-left p {
+    margin: 3px 0 auto 3px 0;
+}
+
 .popular-card figure {
     margin: 0;
     position: relative;
@@ -309,7 +321,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .popular-card-space {
-    flex: 1;
+    flex: 10;
 }
 
 .popular-card span {
