@@ -393,6 +393,8 @@ a, a:hover, a:visited, a:active {
 .wrapper-footer{
     background-color: #f2f2f2;
     width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .wrapper-column-footer {
