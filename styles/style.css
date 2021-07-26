@@ -284,6 +284,10 @@ a, a:hover, a:visited, a:active {
     transform: scale(1.01);
 }
 
+.popular-card div {
+    margin-left: 10px;
+}
+
 .popular-card a {
     display: flex;
     align-items: stretch;
@@ -313,7 +317,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .popular-card span {
-    margin: 0 9px 3px 9px;
+    margin: 0 0 3px 9px;
 }
 
 .fa-star[data-active="true"]{
