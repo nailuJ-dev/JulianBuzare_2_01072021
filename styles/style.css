@@ -141,7 +141,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .search-filters div:hover {
-    transform: scale(1.01);
+    color: #0065FC;
 }
 
 .search-filters i {
