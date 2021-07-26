@@ -284,7 +284,7 @@ a, a:hover, a:visited, a:active {
     transform: scale(1.01);
 }
 
-.popular-card div {
+.popular-card-margin-left {
     margin-left: 10px;
 }
 
