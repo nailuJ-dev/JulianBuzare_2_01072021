@@ -104,7 +104,7 @@ a, a:hover, a:visited, a:active {
     font-weight: bold;
 }
 
-input::placeholder {
+.search form input::placeholder {
     font-weight: bold;
     color: black;
 }
