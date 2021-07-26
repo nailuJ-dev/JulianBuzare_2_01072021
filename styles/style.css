@@ -504,8 +504,8 @@ a, a:hover, a:visited, a:active {
             grid-column: 1/-1;
         }
 
-    .footerWrapper {
-        flex-direction: column;
+    .wrapper-column-footer {
+        grid-template-columns: 1fr;
     }
 }
 
