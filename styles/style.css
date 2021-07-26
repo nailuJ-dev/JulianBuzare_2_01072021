@@ -568,6 +568,39 @@ a, a:hover, a:visited, a:active {
 
         .wrapper-main-hostings {
             grid-row: 2;
+            background: white;
+        }
+    
+    .wrapper-header {
+        display: grid;
+        grid-template-areas: "logo button" 
+                             "navbar navbar";
+        position: relative;
+        margin: 0;
+    }
+
+        .logo-header{
+            grid-area: logo ;
+            align-items: stretch;
+        }
+
+        .signup-button {
+            grid-area: button ;
+            align-items: stretch;
+            margin-top: 21px;
+        }
+
+        .header-nav {
+            grid-area: navbar;
+        }
+
+        .header-button {
+            border-bottom-color: #dbdbdb;
+        }
+
+        .header-button:hover {
+            border-top-color: transparent;
+            border-bottom-color: #0065fc;
         }
 }
 
