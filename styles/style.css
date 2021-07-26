@@ -104,6 +104,11 @@ a, a:hover, a:visited, a:active {
     font-weight: bold;
 }
 
+input::placeholder {
+    font-weight: bold;
+    color: black;
+}
+
 .search form button {
     background-color: #0065fc;
     color: white;
