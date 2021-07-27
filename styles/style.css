@@ -34,7 +34,6 @@ a, a:hover, a:visited, a:active {
 }
 
 .signup-button {
-    display: flex;
     align-items: center;
     grid-area: button;
     padding: 24px;
@@ -573,9 +572,12 @@ a, a:hover, a:visited, a:active {
     
     .wrapper-header {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-areas: "logo button" 
                              "navbar navbar";
-        position: relative;
+        place-self: stretch;
+        align-self: stretch;
         margin: 0;
     }
 
@@ -586,12 +588,16 @@ a, a:hover, a:visited, a:active {
 
         .signup-button {
             grid-area: button ;
-            align-items: stretch;
+            align-self: stretch;
+            align-items: center;
             margin-top: 21px;
         }
 
         .header-nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             grid-area: navbar;
+            margin: 0;
         }
 
         .header-button {
