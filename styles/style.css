@@ -121,6 +121,10 @@ a, a:hover, a:visited, a:active {
     padding-right: 18px;
 }
 
+#icon-glass {
+    display: none;
+}
+
 .search-filters {
     display: flex;
     margin-top: 24px;
@@ -580,17 +584,20 @@ a, a:hover, a:visited, a:active {
         align-self: stretch;
         margin: 0;
     }
+        
+        .wrapper-header-logo {
+            margin: auto;
+        }
 
         .logo-header{
             grid-area: logo ;
-            align-items: stretch;
+            align-self: stretch;
         }
 
         .signup-button {
             grid-area: button ;
-            align-self: stretch;
-            align-items: center;
-            margin-top: 21px;
+            margin: auto;
+            padding: 0;
         }
 
         .header-nav {
@@ -610,7 +617,15 @@ a, a:hover, a:visited, a:active {
         }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 650px) {
+
+    #search-letter-button {
+        
+    }
+
+    #icon-glass {
+
+    }
 
 }
 
