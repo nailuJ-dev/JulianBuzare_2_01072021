@@ -620,11 +620,28 @@ a, a:hover, a:visited, a:active {
 @media screen and (max-width: 650px) {
 
     #search-letter-button {
-        
+        display: none;
     }
 
     #icon-glass {
+        display: block;
+        background-color: #0065fc;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 0 12px 12px 0;
+        font-size: 12px;
+        cursor: pointer;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
 
+}
+
+@media screen and (max-width: 330px) {
+
+    .search form input {
+        width: auto;
     }
 
 }
