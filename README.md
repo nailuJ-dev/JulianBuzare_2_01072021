@@ -28,7 +28,7 @@ Zone delimiting markers :
   - FOOTER for the footer
 
 Content markers :
-  - <p>, <a>, <span>, <ul>, <li>, <strong>, etc.
+  - p, a, span, ul, li, strong, etc.
   
 The responsive part has been integrated directly into the CSS file "style.css"
 
