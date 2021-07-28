@@ -12,6 +12,18 @@ Second project of the Openclassroom web developer course. The main goal of this 
 
 ## Technical constraints
 
+- Two mock-ups: one for desktop computers and one for mobile devices. The site must also be adapted to tablets.
+- Choose the most suitable format in accordance with the resolution and the loading time.
+- The icons come from the Font Awesome library. 
+- The colors of the charter are blue #0065FC, its lighter version #DEEBFF and grey for the background #F2F2F2.
+- The font of the site is Raleway from Google fonts.
+- Do not use any CSS framework or pre-compiler (use HTML and CSS)
+- Use CSS Grid
+- Integrate Font-Awesome icons in HTML or CSS.
+- The code must use semantic tags and must not contain any error or alert to the W3C HTML and CSS validator.
+- The websitesite must be compatible with the latest versions of Chrome and Firefox browsers.
+- Separate the HTML and CSS and organize the output file.
+- Version the code with Git and deploy it on the GitHub or GitLab
 
 ## Notes on the project's implementation
 
