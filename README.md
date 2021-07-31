@@ -31,7 +31,7 @@ This project's version has been test on the Chrome, Firefox and browsers.
   
 This actual code doesn't contain any errors in the W3C HTML and CSS validator.
   
-The code has been versioned on GIT and deployed on GITHUB at the following address https://github.com/nailuJ-dev/Reservia_website_OC_Project2/
+The code has been versioned on GIT and deployed on GITHUB at the following address https://github.com/nailuJ-dev/JulianBuzare_2_01072021
  
 ## Notes on using my tools
 For this project, I used the VISUAL STUDIO CODE editor, the plugins LIVE SERVER & EMMET , GITHUB and its terminal GITBASH.
